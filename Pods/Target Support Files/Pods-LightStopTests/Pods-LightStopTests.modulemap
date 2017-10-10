@@ -1,0 +1,6 @@
+framework module Pods_LightStopTests {
+  umbrella header "Pods-LightStopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

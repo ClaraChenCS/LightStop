@@ -1,0 +1,80 @@
+ [
+  {
+  "loggingTime" : "2017-03-07 17:49:11.566",
+  "deviceID" : "carlos",
+  "locationLatitude" : "37.410793",
+  "locationLongitude" : "-121.991381",
+  "locationSpeed" : "7.930000",
+  "accelerometerAccelerationX" : "-0.045715",
+  "accelerometerAccelerationY" : "-0.959610",
+  "accelerometerAccelerationZ" : "-0.229828",
+  "gyroRotationX" : "0.020186",
+  "gyroRotationY" : "0.002013",
+  "gyroRotationZ" : "0.009739"
+  },
+  {
+  "loggingTime" : "2017-03-07 19:40:16.362",
+  "deviceID" : "claras",
+  "locationLatitude" : "37.735278",
+  "locationLongitude" : "-122.471152",
+  "locationSpeed" : "3.370000",
+  "accelerometerAccelerationX" : "-0.035278",
+  "accelerometerAccelerationY" : "-0.360214",
+  "accelerometerAccelerationZ" : "-0.882751",
+  "gyroRotationX" : "-0.084139",
+  "gyroRotationY" : "-0.028778",
+  "gyroRotationZ" : "-0.018622"
+  },
+  {
+  "loggingTime" : "2017-03-08 08:19:31.109",
+  "deviceID" : "carlos",
+  "locationLatitude" : "37.454283",
+  "locationLongitude" : "-121.903977",
+  "locationSpeed" : "11.600000",
+  "accelerometerAccelerationX" : "-0.118195",
+  "accelerometerAccelerationY" : "-0.908951",
+  "accelerometerAccelerationZ" : "-0.302444",
+  "gyroRotationX" : "0.001196",
+  "gyroRotationY" : "0.031860",
+  "gyroRotationZ" : "-0.006840"
+  },
+  {
+  "loggingTime" : "2017-03-08 08:35:42.975",
+  "deviceID" : "carlos",
+  "locationLatitude" : "37.422102",
+  "locationLongitude" : "-121.932009",
+  "locationSpeed" : "6.910000",
+  "accelerometerAccelerationX" : "-0.127731",
+  "accelerometerAccelerationY" : "-0.927902",
+  "accelerometerAccelerationZ" : "-0.341949",
+  "gyroRotationX" : "-0.015848",
+  "gyroRotationY" : "0.018153",
+  "gyroRotationZ" : "-0.013591"
+  },
+  {
+  "loggingTime" : "2017-03-08 08:49:06.266",
+  "deviceID" : "carlos",
+  "locationLatitude" : "37.403329",
+  "locationLongitude" : "-122.028134",
+  "locationSpeed" : "13.820000",
+  "accelerometerAccelerationX" : "-0.165604",
+  "accelerometerAccelerationY" : "-0.901398",
+  "accelerometerAccelerationZ" : "-0.300507",
+  "gyroRotationX" : "-0.045398",
+  "gyroRotationY" : "-0.107545",
+  "gyroRotationZ" : "0.094682"
+  },
+  {
+  "loggingTime" : "2017-03-08 17:14:59.824",
+  "deviceID" : "carlos",
+  "locationLatitude" : "37.403978",
+  "locationLongitude" : "-122.025441",
+  "locationSpeed" : "10.630000",
+  "accelerometerAccelerationX" : "0.081879",
+  "accelerometerAccelerationY" : "-1.011200",
+  "accelerometerAccelerationZ" : "-0.382187",
+  "gyroRotationX" : "0.116648",
+  "gyroRotationY" : "0.127356",
+  "gyroRotationZ" : "-0.067272"
+  }
+]

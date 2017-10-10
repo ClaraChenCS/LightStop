@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LightStop.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LightStopIntent.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>LightStopIntentUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>03A05E381EB5336F0050C889</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>03A05E411EB5336F0050C889</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9451340F1E79B84100C85F12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>945134261E79B84200C85F12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>945134311E79B84200C85F12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

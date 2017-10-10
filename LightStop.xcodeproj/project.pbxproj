@@ -1,0 +1,1174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038DA38D1EA7D83F00757682 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038DA38C1EA7D83F00757682 /* Profile.swift */; };
+		03A05E3C1EB5336F0050C889 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A05E3B1EB5336F0050C889 /* IntentHandler.swift */; };
+		03A05E441EB5336F0050C889 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A05E431EB5336F0050C889 /* IntentsUI.framework */; };
+		03A05E471EB5336F0050C889 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A05E461EB5336F0050C889 /* IntentViewController.swift */; };
+		03A05E4A1EB5336F0050C889 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A05E481EB5336F0050C889 /* MainInterface.storyboard */; };
+		03A05E4E1EB5336F0050C889 /* LightStopIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03A05E421EB5336F0050C889 /* LightStopIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03A05E511EB5336F0050C889 /* LightStopIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03A05E391EB5336F0050C889 /* LightStopIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03E77D5C1E8E04F100522996 /* AppUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E77D5B1E8E04F100522996 /* AppUserData.swift */; };
+		03ED11521E875AEC00290DE1 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED114C1E875AEC00290DE1 /* CoreDataStackManager.swift */; };
+		03ED11531E875AEC00290DE1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED114D1E875AEC00290DE1 /* User.swift */; };
+		03ED11541E875AEC00290DE1 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED114E1E875AEC00290DE1 /* User+CoreDataProperties.swift */; };
+		03ED11551E875AEC00290DE1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED114F1E875AEC00290DE1 /* Location.swift */; };
+		03ED11561E875AEC00290DE1 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED11501E875AEC00290DE1 /* Location+CoreDataProperties.swift */; };
+		03ED11571E875AEC00290DE1 /* LightStopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED11511E875AEC00290DE1 /* LightStopData.swift */; };
+		291B24317C00933BCCDDBEDE /* Pods_LightStopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A6F5C31B52BBB50A1C364 /* Pods_LightStopTests.framework */; };
+		3679BBD7279EE2FC68902F19 /* Pods_LightStop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804EFF8C0B3A65D1B380AAA0 /* Pods_LightStop.framework */; };
+		6CE13DCF661E150DD8A0A7FA /* Pods_LightStopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F735FBCB6D2701D40B2009C /* Pods_LightStopUITests.framework */; };
+		940800621E82E3E90075FB5D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940800611E82E3E90075FB5D /* Bolts.framework */; };
+		940800641E82E4200075FB5D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940800631E82E4200075FB5D /* FBSDKCoreKit.framework */; };
+		940800661E82E42C0075FB5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940800651E82E42C0075FB5D /* FBSDKShareKit.framework */; };
+		945134141E79B84100C85F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945134131E79B84100C85F12 /* AppDelegate.swift */; };
+		945134161E79B84100C85F12 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945134151E79B84100C85F12 /* MapViewController.swift */; };
+		945134191E79B84100C85F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945134171E79B84100C85F12 /* Main.storyboard */; };
+		9451341C1E79B84100C85F12 /* LightStop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9451341A1E79B84100C85F12 /* LightStop.xcdatamodeld */; };
+		945134211E79B84200C85F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9451341F1E79B84100C85F12 /* LaunchScreen.storyboard */; };
+		9451342C1E79B84200C85F12 /* LightStopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451342B1E79B84200C85F12 /* LightStopTests.swift */; };
+		945134371E79B84200C85F12 /* LightStopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945134361E79B84200C85F12 /* LightStopUITests.swift */; };
+		949B32B21EB5601C007BF7C2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949B32B11EB5601C007BF7C2 /* Alamofire.framework */; };
+		94D9102B1E82532300689316 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9102A1E82532300689316 /* FBSDKLoginKit.framework */; };
+		94F87FE01E7CA396001E10F0 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F87FDF1E7CA396001E10F0 /* RouteViewController.swift */; };
+		94F8DDFB1E8347BB00A527FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8DDFA1E8347BB00A527FE /* LoginViewController.swift */; };
+		BA187E131EB93A7B00BFCA1B /* AppSearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA187E121EB93A7B00BFCA1B /* AppSearchBarController.swift */; };
+		BA187E1B1EB962DB00BFCA1B /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA187E1A1EB962DB00BFCA1B /* UserTableView.swift */; };
+		BA187E1D1EB9632700BFCA1B /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA187E1C1EB9632700BFCA1B /* LocationSearchTable.swift */; };
+		BA187E1F1EB9647600BFCA1B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA187E1E1EB9647600BFCA1B /* AppFABMenuController.swift */; };
+		BA35EB4A1EB872EE00D8EAC6 /* AppNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA35EB441EB872EE00D8EAC6 /* AppNavigationDrawerController.swift */; };
+		BA35EB4B1EB872EE00D8EAC6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA35EB451EB872EE00D8EAC6 /* RootViewController.swift */; };
+		BA35EB4C1EB872EE00D8EAC6 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA35EB461EB872EE00D8EAC6 /* LeftViewController.swift */; };
+		BA35EB4D1EB872EE00D8EAC6 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA35EB471EB872EE00D8EAC6 /* RightViewController.swift */; };
+		BA444C5C1EBAC1A10080C267 /* dataRandom.json in Resources */ = {isa = PBXBuildFile; fileRef = BA444C5B1EBAC1A10080C267 /* dataRandom.json */; };
+		BA444C5E1EBAF6720080C267 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = BA444C5D1EBAF6720080C267 /* AppIcon.appiconset */; };
+		BA444C601EBAF6890080C267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA444C5F1EBAF6890080C267 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A05E591EB55E040050C889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945134081E79B84100C85F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A05E381EB5336F0050C889;
+			remoteInfo = LightStopIntent;
+		};
+		03A05E5B1EB55E040050C889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945134081E79B84100C85F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A05E411EB5336F0050C889;
+			remoteInfo = LightStopIntentUI;
+		};
+		945134281E79B84200C85F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945134081E79B84100C85F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9451340F1E79B84100C85F12;
+			remoteInfo = LightStop;
+		};
+		945134331E79B84200C85F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945134081E79B84100C85F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9451340F1E79B84100C85F12;
+			remoteInfo = LightStop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03A05E581EB5336F0050C889 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03A05E4E1EB5336F0050C889 /* LightStopIntentUI.appex in Embed App Extensions */,
+				03A05E511EB5336F0050C889 /* LightStopIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		038DA38C1EA7D83F00757682 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		03A05E341EB52D7D0050C889 /* LightStop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightStop.entitlements; sourceTree = "<group>"; };
+		03A05E391EB5336F0050C889 /* LightStopIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightStopIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A05E3B1EB5336F0050C889 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		03A05E3D1EB5336F0050C889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A05E421EB5336F0050C889 /* LightStopIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightStopIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A05E431EB5336F0050C889 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		03A05E461EB5336F0050C889 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		03A05E491EB5336F0050C889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		03A05E4B1EB5336F0050C889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E77D5B1E8E04F100522996 /* AppUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserData.swift; sourceTree = "<group>"; };
+		03ED114C1E875AEC00290DE1 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		03ED114D1E875AEC00290DE1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		03ED114E1E875AEC00290DE1 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03ED114F1E875AEC00290DE1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		03ED11501E875AEC00290DE1 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03ED11511E875AEC00290DE1 /* LightStopData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightStopData.swift; sourceTree = "<group>"; };
+		120638AC546F7FFCB95E61A6 /* Pods-LightStop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStop.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightStop/Pods-LightStop.release.xcconfig"; sourceTree = "<group>"; };
+		1B0F439A964D7D3CD236738E /* Pods-LightStopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightStopTests/Pods-LightStopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F735FBCB6D2701D40B2009C /* Pods_LightStopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightStopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9967AC6EB0941BB6C51C35 /* Pods-LightStopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightStopUITests/Pods-LightStopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		804EFF8C0B3A65D1B380AAA0 /* Pods_LightStop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightStop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D2988439FE4729EA44FDAF /* Pods-LightStopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightStopUITests/Pods-LightStopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F7A6F5C31B52BBB50A1C364 /* Pods_LightStopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightStopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90686EE2B7CAE515DE523F1A /* Pods-LightStop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightStop/Pods-LightStop.debug.xcconfig"; sourceTree = "<group>"; };
+		940800611E82E3E90075FB5D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		940800631E82E4200075FB5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		940800651E82E42C0075FB5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		945134101E79B84100C85F12 /* LightStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945134131E79B84100C85F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945134151E79B84100C85F12 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		945134181E79B84100C85F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9451341B1E79B84100C85F12 /* LightStop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LightStop.xcdatamodel; sourceTree = "<group>"; };
+		945134201E79B84100C85F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		945134221E79B84200C85F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945134271E79B84200C85F12 /* LightStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9451342B1E79B84200C85F12 /* LightStopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStopTests.swift; sourceTree = "<group>"; };
+		9451342D1E79B84200C85F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945134321E79B84200C85F12 /* LightStopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightStopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		945134361E79B84200C85F12 /* LightStopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStopUITests.swift; sourceTree = "<group>"; };
+		945134381E79B84200C85F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949B32B11EB5601C007BF7C2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/LightStop-esbdvnywcfbqpgaapuntlbmukmib/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		94D9102A1E82532300689316 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		94F87FDF1E7CA396001E10F0 /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		94F8DDFA1E8347BB00A527FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		BA187E121EB93A7B00BFCA1B /* AppSearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSearchBarController.swift; sourceTree = "<group>"; };
+		BA187E1A1EB962DB00BFCA1B /* UserTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
+		BA187E1C1EB9632700BFCA1B /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		BA187E1E1EB9647600BFCA1B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFABMenuController.swift; sourceTree = "<group>"; };
+		BA35EB441EB872EE00D8EAC6 /* AppNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationDrawerController.swift; sourceTree = "<group>"; };
+		BA35EB451EB872EE00D8EAC6 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BA35EB461EB872EE00D8EAC6 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		BA35EB471EB872EE00D8EAC6 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		BA444C5B1EBAC1A10080C267 /* dataRandom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataRandom.json; sourceTree = "<group>"; };
+		BA444C5D1EBAF6720080C267 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		BA444C5F1EBAF6890080C267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3271E68AAF9C15DD6801140 /* Pods-LightStopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightStopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightStopTests/Pods-LightStopTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A05E361EB5336F0050C889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A05E3F1EB5336F0050C889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A05E441EB5336F0050C889 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9451340D1E79B84100C85F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949B32B21EB5601C007BF7C2 /* Alamofire.framework in Frameworks */,
+				940800661E82E42C0075FB5D /* FBSDKShareKit.framework in Frameworks */,
+				94D9102B1E82532300689316 /* FBSDKLoginKit.framework in Frameworks */,
+				940800641E82E4200075FB5D /* FBSDKCoreKit.framework in Frameworks */,
+				940800621E82E3E90075FB5D /* Bolts.framework in Frameworks */,
+				3679BBD7279EE2FC68902F19 /* Pods_LightStop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945134241E79B84200C85F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B24317C00933BCCDDBEDE /* Pods_LightStopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9451342F1E79B84200C85F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE13DCF661E150DD8A0A7FA /* Pods_LightStopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A05E3A1EB5336F0050C889 /* LightStopIntent */ = {
+			isa = PBXGroup;
+			children = (
+				03A05E3B1EB5336F0050C889 /* IntentHandler.swift */,
+				03A05E3D1EB5336F0050C889 /* Info.plist */,
+			);
+			path = LightStopIntent;
+			sourceTree = "<group>";
+		};
+		03A05E451EB5336F0050C889 /* LightStopIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				03A05E461EB5336F0050C889 /* IntentViewController.swift */,
+				03A05E481EB5336F0050C889 /* MainInterface.storyboard */,
+				03A05E4B1EB5336F0050C889 /* Info.plist */,
+			);
+			path = LightStopIntentUI;
+			sourceTree = "<group>";
+		};
+		03ED11491E875AA000290DE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA35EB411EB8724E00D8EAC6 /* Navigation Drawer */,
+				94F8DDFA1E8347BB00A527FE /* LoginViewController.swift */,
+				BA187E1C1EB9632700BFCA1B /* LocationSearchTable.swift */,
+				945134151E79B84100C85F12 /* MapViewController.swift */,
+				94F87FDF1E7CA396001E10F0 /* RouteViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		03ED114A1E875AAA00290DE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				945134171E79B84100C85F12 /* Main.storyboard */,
+				9451341F1E79B84100C85F12 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		03ED114B1E875AB000290DE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9451341A1E79B84100C85F12 /* LightStop.xcdatamodeld */,
+				03ED114C1E875AEC00290DE1 /* CoreDataStackManager.swift */,
+				03ED114D1E875AEC00290DE1 /* User.swift */,
+				03ED114E1E875AEC00290DE1 /* User+CoreDataProperties.swift */,
+				038DA38C1EA7D83F00757682 /* Profile.swift */,
+				03ED114F1E875AEC00290DE1 /* Location.swift */,
+				03ED11501E875AEC00290DE1 /* Location+CoreDataProperties.swift */,
+				03ED11511E875AEC00290DE1 /* LightStopData.swift */,
+				03E77D5B1E8E04F100522996 /* AppUserData.swift */,
+				BA444C5B1EBAC1A10080C267 /* dataRandom.json */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		03ED11581E875B1100290DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA444C5F1EBAF6890080C267 /* Assets.xcassets */,
+				BA444C5D1EBAF6720080C267 /* AppIcon.appiconset */,
+				03A05E341EB52D7D0050C889 /* LightStop.entitlements */,
+				945134221E79B84200C85F12 /* Info.plist */,
+				945134131E79B84100C85F12 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		945134071E79B84100C85F12 = {
+			isa = PBXGroup;
+			children = (
+				945134121E79B84100C85F12 /* LightStop */,
+				9451342A1E79B84200C85F12 /* LightStopTests */,
+				945134351E79B84200C85F12 /* LightStopUITests */,
+				03A05E3A1EB5336F0050C889 /* LightStopIntent */,
+				03A05E451EB5336F0050C889 /* LightStopIntentUI */,
+				945134111E79B84100C85F12 /* Products */,
+				C3EDC4FA08B4089C4930776D /* Frameworks */,
+				A0AB386B6EFD8FE21123FDB3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		945134111E79B84100C85F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945134101E79B84100C85F12 /* LightStop.app */,
+				945134271E79B84200C85F12 /* LightStopTests.xctest */,
+				945134321E79B84200C85F12 /* LightStopUITests.xctest */,
+				03A05E391EB5336F0050C889 /* LightStopIntent.appex */,
+				03A05E421EB5336F0050C889 /* LightStopIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945134121E79B84100C85F12 /* LightStop */ = {
+			isa = PBXGroup;
+			children = (
+				03ED114B1E875AB000290DE1 /* Models */,
+				03ED114A1E875AAA00290DE1 /* Views */,
+				03ED11491E875AA000290DE1 /* Controllers */,
+				03ED11581E875B1100290DE1 /* Supporting Files */,
+				94D910291E8252DB00689316 /* Frameworks */,
+			);
+			path = LightStop;
+			sourceTree = "<group>";
+		};
+		9451342A1E79B84200C85F12 /* LightStopTests */ = {
+			isa = PBXGroup;
+			children = (
+				9451342B1E79B84200C85F12 /* LightStopTests.swift */,
+				9451342D1E79B84200C85F12 /* Info.plist */,
+			);
+			path = LightStopTests;
+			sourceTree = "<group>";
+		};
+		945134351E79B84200C85F12 /* LightStopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				945134361E79B84200C85F12 /* LightStopUITests.swift */,
+				945134381E79B84200C85F12 /* Info.plist */,
+			);
+			path = LightStopUITests;
+			sourceTree = "<group>";
+		};
+		94D910291E8252DB00689316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940800651E82E42C0075FB5D /* FBSDKShareKit.framework */,
+				940800631E82E4200075FB5D /* FBSDKCoreKit.framework */,
+				940800611E82E3E90075FB5D /* Bolts.framework */,
+				94D9102A1E82532300689316 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0AB386B6EFD8FE21123FDB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90686EE2B7CAE515DE523F1A /* Pods-LightStop.debug.xcconfig */,
+				120638AC546F7FFCB95E61A6 /* Pods-LightStop.release.xcconfig */,
+				1B0F439A964D7D3CD236738E /* Pods-LightStopTests.debug.xcconfig */,
+				D3271E68AAF9C15DD6801140 /* Pods-LightStopTests.release.xcconfig */,
+				80D2988439FE4729EA44FDAF /* Pods-LightStopUITests.debug.xcconfig */,
+				6F9967AC6EB0941BB6C51C35 /* Pods-LightStopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA35EB411EB8724E00D8EAC6 /* Navigation Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				BA187E1E1EB9647600BFCA1B /* AppFABMenuController.swift */,
+				BA187E1A1EB962DB00BFCA1B /* UserTableView.swift */,
+				BA187E121EB93A7B00BFCA1B /* AppSearchBarController.swift */,
+				BA35EB441EB872EE00D8EAC6 /* AppNavigationDrawerController.swift */,
+				BA35EB451EB872EE00D8EAC6 /* RootViewController.swift */,
+				BA35EB461EB872EE00D8EAC6 /* LeftViewController.swift */,
+				BA35EB471EB872EE00D8EAC6 /* RightViewController.swift */,
+			);
+			name = "Navigation Drawer";
+			sourceTree = "<group>";
+		};
+		C3EDC4FA08B4089C4930776D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949B32B11EB5601C007BF7C2 /* Alamofire.framework */,
+				804EFF8C0B3A65D1B380AAA0 /* Pods_LightStop.framework */,
+				8F7A6F5C31B52BBB50A1C364 /* Pods_LightStopTests.framework */,
+				2F735FBCB6D2701D40B2009C /* Pods_LightStopUITests.framework */,
+				03A05E431EB5336F0050C889 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A05E381EB5336F0050C889 /* LightStopIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A05E551EB5336F0050C889 /* Build configuration list for PBXNativeTarget "LightStopIntent" */;
+			buildPhases = (
+				03A05E351EB5336F0050C889 /* Sources */,
+				03A05E361EB5336F0050C889 /* Frameworks */,
+				03A05E371EB5336F0050C889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightStopIntent;
+			productName = LightStopIntent;
+			productReference = 03A05E391EB5336F0050C889 /* LightStopIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		03A05E411EB5336F0050C889 /* LightStopIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A05E521EB5336F0050C889 /* Build configuration list for PBXNativeTarget "LightStopIntentUI" */;
+			buildPhases = (
+				03A05E3E1EB5336F0050C889 /* Sources */,
+				03A05E3F1EB5336F0050C889 /* Frameworks */,
+				03A05E401EB5336F0050C889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightStopIntentUI;
+			productName = LightStopIntentUI;
+			productReference = 03A05E421EB5336F0050C889 /* LightStopIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9451340F1E79B84100C85F12 /* LightStop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9451343B1E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStop" */;
+			buildPhases = (
+				6BDA45C8106C1959A0BD9B92 /* [CP] Check Pods Manifest.lock */,
+				9451340C1E79B84100C85F12 /* Sources */,
+				9451340D1E79B84100C85F12 /* Frameworks */,
+				9451340E1E79B84100C85F12 /* Resources */,
+				781BAE4F443DAF234F109B50 /* [CP] Embed Pods Frameworks */,
+				DB55F2CC88E79E68D6AF9349 /* [CP] Copy Pods Resources */,
+				03A05E581EB5336F0050C889 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A05E5A1EB55E040050C889 /* PBXTargetDependency */,
+				03A05E5C1EB55E040050C889 /* PBXTargetDependency */,
+			);
+			name = LightStop;
+			productName = LightStop;
+			productReference = 945134101E79B84100C85F12 /* LightStop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945134261E79B84200C85F12 /* LightStopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9451343E1E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStopTests" */;
+			buildPhases = (
+				3CB2029850552F8FA4697303 /* [CP] Check Pods Manifest.lock */,
+				945134231E79B84200C85F12 /* Sources */,
+				945134241E79B84200C85F12 /* Frameworks */,
+				945134251E79B84200C85F12 /* Resources */,
+				D4151D370A4A3F168D5DCD05 /* [CP] Embed Pods Frameworks */,
+				FF0274E9FA50EC4731333ABA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945134291E79B84200C85F12 /* PBXTargetDependency */,
+			);
+			name = LightStopTests;
+			productName = LightStopTests;
+			productReference = 945134271E79B84200C85F12 /* LightStopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		945134311E79B84200C85F12 /* LightStopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945134411E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStopUITests" */;
+			buildPhases = (
+				14CBD84817E3971FAA685E56 /* [CP] Check Pods Manifest.lock */,
+				9451342E1E79B84200C85F12 /* Sources */,
+				9451342F1E79B84200C85F12 /* Frameworks */,
+				945134301E79B84200C85F12 /* Resources */,
+				47044EC55DDE8DA874F92D7D /* [CP] Embed Pods Frameworks */,
+				A0C65E06FD46F368967BA751 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945134341E79B84200C85F12 /* PBXTargetDependency */,
+			);
+			name = LightStopUITests;
+			productName = LightStopUITests;
+			productReference = 945134321E79B84200C85F12 /* LightStopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945134081E79B84100C85F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sjsu;
+				TargetAttributes = {
+					03A05E381EB5336F0050C889 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UHCFQX8VT7;
+						ProvisioningStyle = Automatic;
+					};
+					03A05E411EB5336F0050C889 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UHCFQX8VT7;
+						ProvisioningStyle = Automatic;
+					};
+					9451340F1E79B84100C85F12 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UHCFQX8VT7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+					945134261E79B84200C85F12 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8R7LA5NVPK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9451340F1E79B84100C85F12;
+					};
+					945134311E79B84200C85F12 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8R7LA5NVPK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9451340F1E79B84100C85F12;
+					};
+				};
+			};
+			buildConfigurationList = 9451340B1E79B84100C85F12 /* Build configuration list for PBXProject "LightStop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945134071E79B84100C85F12;
+			productRefGroup = 945134111E79B84100C85F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9451340F1E79B84100C85F12 /* LightStop */,
+				945134261E79B84200C85F12 /* LightStopTests */,
+				945134311E79B84200C85F12 /* LightStopUITests */,
+				03A05E381EB5336F0050C889 /* LightStopIntent */,
+				03A05E411EB5336F0050C889 /* LightStopIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A05E371EB5336F0050C889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A05E401EB5336F0050C889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A05E4A1EB5336F0050C889 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9451340E1E79B84100C85F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA444C5E1EBAF6720080C267 /* AppIcon.appiconset in Resources */,
+				945134211E79B84200C85F12 /* LaunchScreen.storyboard in Resources */,
+				BA444C5C1EBAC1A10080C267 /* dataRandom.json in Resources */,
+				945134191E79B84100C85F12 /* Main.storyboard in Resources */,
+				BA444C601EBAF6890080C267 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945134251E79B84200C85F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945134301E79B84200C85F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14CBD84817E3971FAA685E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB2029850552F8FA4697303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47044EC55DDE8DA874F92D7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStopUITests/Pods-LightStopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDA45C8106C1959A0BD9B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		781BAE4F443DAF234F109B50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStop/Pods-LightStop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C65E06FD46F368967BA751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStopUITests/Pods-LightStopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4151D370A4A3F168D5DCD05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStopTests/Pods-LightStopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB55F2CC88E79E68D6AF9349 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStop/Pods-LightStop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0274E9FA50EC4731333ABA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightStopTests/Pods-LightStopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A05E351EB5336F0050C889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A05E3C1EB5336F0050C889 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A05E3E1EB5336F0050C889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A05E471EB5336F0050C889 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9451340C1E79B84100C85F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F8DDFB1E8347BB00A527FE /* LoginViewController.swift in Sources */,
+				945134161E79B84100C85F12 /* MapViewController.swift in Sources */,
+				BA187E1F1EB9647600BFCA1B /* AppFABMenuController.swift in Sources */,
+				BA35EB4B1EB872EE00D8EAC6 /* RootViewController.swift in Sources */,
+				03ED11571E875AEC00290DE1 /* LightStopData.swift in Sources */,
+				038DA38D1EA7D83F00757682 /* Profile.swift in Sources */,
+				03E77D5C1E8E04F100522996 /* AppUserData.swift in Sources */,
+				03ED11561E875AEC00290DE1 /* Location+CoreDataProperties.swift in Sources */,
+				03ED11551E875AEC00290DE1 /* Location.swift in Sources */,
+				945134141E79B84100C85F12 /* AppDelegate.swift in Sources */,
+				03ED11521E875AEC00290DE1 /* CoreDataStackManager.swift in Sources */,
+				03ED11531E875AEC00290DE1 /* User.swift in Sources */,
+				BA187E1D1EB9632700BFCA1B /* LocationSearchTable.swift in Sources */,
+				BA35EB4A1EB872EE00D8EAC6 /* AppNavigationDrawerController.swift in Sources */,
+				9451341C1E79B84100C85F12 /* LightStop.xcdatamodeld in Sources */,
+				94F87FE01E7CA396001E10F0 /* RouteViewController.swift in Sources */,
+				BA187E131EB93A7B00BFCA1B /* AppSearchBarController.swift in Sources */,
+				BA187E1B1EB962DB00BFCA1B /* UserTableView.swift in Sources */,
+				BA35EB4D1EB872EE00D8EAC6 /* RightViewController.swift in Sources */,
+				03ED11541E875AEC00290DE1 /* User+CoreDataProperties.swift in Sources */,
+				BA35EB4C1EB872EE00D8EAC6 /* LeftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945134231E79B84200C85F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9451342C1E79B84200C85F12 /* LightStopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9451342E1E79B84200C85F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945134371E79B84200C85F12 /* LightStopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A05E5A1EB55E040050C889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A05E381EB5336F0050C889 /* LightStopIntent */;
+			targetProxy = 03A05E591EB55E040050C889 /* PBXContainerItemProxy */;
+		};
+		03A05E5C1EB55E040050C889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A05E411EB5336F0050C889 /* LightStopIntentUI */;
+			targetProxy = 03A05E5B1EB55E040050C889 /* PBXContainerItemProxy */;
+		};
+		945134291E79B84200C85F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9451340F1E79B84100C85F12 /* LightStop */;
+			targetProxy = 945134281E79B84200C85F12 /* PBXContainerItemProxy */;
+		};
+		945134341E79B84200C85F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9451340F1E79B84100C85F12 /* LightStop */;
+			targetProxy = 945134331E79B84200C85F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03A05E481EB5336F0050C889 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A05E491EB5336F0050C889 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		945134171E79B84100C85F12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945134181E79B84100C85F12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9451341F1E79B84100C85F12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945134201E79B84100C85F12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A05E531EB5336F0050C889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				INFOPLIST_FILE = LightStopIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop.LightStopIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03A05E541EB5336F0050C889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				INFOPLIST_FILE = LightStopIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop.LightStopIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03A05E561EB5336F0050C889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				INFOPLIST_FILE = LightStopIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop.LightStopIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03A05E571EB5336F0050C889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				INFOPLIST_FILE = LightStopIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop.LightStopIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		945134391E79B84200C85F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9451343A1E79B84200C85F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9451343C1E79B84200C85F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90686EE2B7CAE515DE523F1A /* Pods-LightStop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LightStop",
+				);
+				INFOPLIST_FILE = LightStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9451343D1E79B84200C85F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120638AC546F7FFCB95E61A6 /* Pods-LightStop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHCFQX8VT7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LightStop",
+				);
+				INFOPLIST_FILE = LightStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9451343F1E79B84200C85F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0F439A964D7D3CD236738E /* Pods-LightStopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8R7LA5NVPK;
+				INFOPLIST_FILE = LightStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightStop.app/LightStop";
+			};
+			name = Debug;
+		};
+		945134401E79B84200C85F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3271E68AAF9C15DD6801140 /* Pods-LightStopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8R7LA5NVPK;
+				INFOPLIST_FILE = LightStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightStop.app/LightStop";
+			};
+			name = Release;
+		};
+		945134421E79B84200C85F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D2988439FE4729EA44FDAF /* Pods-LightStopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8R7LA5NVPK;
+				INFOPLIST_FILE = LightStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LightStop;
+			};
+			name = Debug;
+		};
+		945134431E79B84200C85F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9967AC6EB0941BB6C51C35 /* Pods-LightStopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8R7LA5NVPK;
+				INFOPLIST_FILE = LightStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.LightStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LightStop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A05E521EB5336F0050C889 /* Build configuration list for PBXNativeTarget "LightStopIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A05E531EB5336F0050C889 /* Debug */,
+				03A05E541EB5336F0050C889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A05E551EB5336F0050C889 /* Build configuration list for PBXNativeTarget "LightStopIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A05E561EB5336F0050C889 /* Debug */,
+				03A05E571EB5336F0050C889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9451340B1E79B84100C85F12 /* Build configuration list for PBXProject "LightStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945134391E79B84200C85F12 /* Debug */,
+				9451343A1E79B84200C85F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9451343B1E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9451343C1E79B84200C85F12 /* Debug */,
+				9451343D1E79B84200C85F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9451343E1E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9451343F1E79B84200C85F12 /* Debug */,
+				945134401E79B84200C85F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945134411E79B84200C85F12 /* Build configuration list for PBXNativeTarget "LightStopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945134421E79B84200C85F12 /* Debug */,
+				945134431E79B84200C85F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9451341A1E79B84100C85F12 /* LightStop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9451341B1E79B84100C85F12 /* LightStop.xcdatamodel */,
+			);
+			currentVersion = 9451341B1E79B84100C85F12 /* LightStop.xcdatamodel */;
+			path = LightStop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 945134081E79B84100C85F12 /* Project object */;
+}
